@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Score Rank</h2>
+<ol>
+{% for score in scores %}
+    <li><p>Name: {{ score.name }}
+        <br>Score: {{ score.score }}
+        <br>{{ score.date}}</p>
+    </li>
+{% endfor %}
+</ol>
+{% endblock %}
