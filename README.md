@@ -9,9 +9,9 @@ This is a simple Maze game created with Pygame and Flask. It is done as a group 
 # Set Up Environment and Install Dependencies
 ------------------------
 1. In Powershell or any terminal, create a virtual environment if you do not have one and activate the virtual environment.
-    Powershell:
-    To create a virtual environment: ```py -m venv <name>```
-    To activate the virtual environment: ```.\<name>\Scripts\activate.ps1```
+- For Powershell:
+    - To create a virtual environment: ```py -m venv <name>```
+    - To activate the virtual environment: ```.\<name>\Scripts\activate.ps1```
 2. Run ```pip install -r requirements.txt```
 
 # How to Run the game
